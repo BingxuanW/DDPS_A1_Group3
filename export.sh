@@ -32,9 +32,6 @@ export MAVEN_HOME=/var/scratch/ddps2203/maven
 # export M2=${MAVEN_HOME}/bin
 export PATH=${MAVEN_HOME}/bin:$PATH
 
-
-#export PATH=$HADOOP_HOME/bin:$SPARK_HOME/bin:$PATH;
-
 EOF
 source .bashrc
 
