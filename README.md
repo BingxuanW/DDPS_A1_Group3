@@ -56,5 +56,9 @@
 
 ### Results
 
-  
-   
+![Insufficient_Memory](https://user-images.githubusercontent.com/91846976/201238738-b02af4e3-b545-49a1-b38b-21f7b88631bc.png)
+
+   ![iteration_stage](https://user-images.githubusercontent.com/91846976/201238744-8582a0d7-0cbe-4bac-9b03-e23ce7a297fc.png)
+
+![node_num](https://user-images.githubusercontent.com/91846976/201238747-36cb2126-7b15-4c25-bc6c-fb47157f507d.png)
+![Input_Data_Size](https://user-images.githubusercontent.com/91846976/201238751-8b76dd7e-6c08-4914-9b1c-c58afa00cf0f.png)
