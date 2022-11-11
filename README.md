@@ -25,7 +25,8 @@
      Configure 'hibench.scale.profile' with different value 'small' 'large' 'huge' and launch the HiBench driver program.
       
    
-      ``` vim /var/scratch/ddps2203/HiBench/conf/hibench.conf
+      ``` 
+      vim /var/scratch/ddps2203/HiBench/conf/hibench.conf
       ./repeat_run_spark_hadoop.sh 
       ```
       
@@ -37,14 +38,16 @@
    
       configure 'hibench.kmeans.huge.max_iteration		$first_time' or 'hibench.kmeans.huge.max_iteration		5'
    
-      ```vim /var/scratch/ddps2203/HiBench/conf/workloads/ml/kmeans/kmeans.conf
+      ```
+      vim /var/scratch/ddps2203/HiBench/conf/workloads/ml/kmeans/kmeans.conf
       ./repeat_run_spark_hadoop.sh
       ```
       
    + **Experiment 4 : Behavior with Insufficient Memory**  
    
        configure 'spark.executor.memory  $memory_size'.
-      ```vim /var/scrath/ddps2203/HiBench/conf/spark.conf
+      ```
+      vim /var/scrath/ddps2203/HiBench/conf/spark.conf
       ./repeat_run_spark_hadoop.sh
       ```
     
