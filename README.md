@@ -26,7 +26,8 @@
       
    
       ``` vim /var/scratch/ddps2203/HiBench/conf/hibench.conf
-      ./repeat_run_spark_hadoop.sh ```
+      ./repeat_run_spark_hadoop.sh 
+      ```
       
    + **Experiment 2 : Different Number of Nodes** 
    
@@ -37,13 +38,15 @@
       configure 'hibench.kmeans.huge.max_iteration		$first_time' or 'hibench.kmeans.huge.max_iteration		5'
    
       ```vim /var/scratch/ddps2203/HiBench/conf/workloads/ml/kmeans/kmeans.conf
-      ./repeat_run_spark_hadoop.sh```
+      ./repeat_run_spark_hadoop.sh
+      ```
       
    + **Experiment 4 : Behavior with Insufficient Memory**  
    
        configure 'spark.executor.memory  $memory_size'.
       ```vim /var/scrath/ddps2203/HiBench/conf/spark.conf
-      ./repeat_run_spark_hadoop.sh```
+      ./repeat_run_spark_hadoop.sh
+      ```
     
 ### Stop Spark and Hadoop 
   `./stop_spark_hadoop.sh`
