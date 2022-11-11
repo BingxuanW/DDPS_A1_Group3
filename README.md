@@ -20,9 +20,10 @@
 ```
 
 ### Experiments
-   + **Experiment 1 : Different Data Scale**
-  ` vim /var/scratch/ddps2203/HiBench/conf/hibench.conf`
-    configure 'hibench.scale.profile' with different value 'small' 'large' 'huge'
+   + **Experiment 1 : Different Data Scale** 
+   
+      ` vim /var/scratch/ddps2203/HiBench/conf/hibench.conf`
+       configure 'hibench.scale.profile' with different value 'small' 'large' 'huge'
     
    + **Experiment 2 : Different Number of Nodes**
    + **Experiment 3 : Exploring Duration of First and later Iterations**
