@@ -23,9 +23,16 @@
    + **Experiment 1 : Different Data Scale** 
    
       ` vim /var/scratch/ddps2203/HiBench/conf/hibench.conf`
-       configure 'hibench.scale.profile' with different value 'small' 'large' 'huge'
-    
-   + **Experiment 2 : Different Number of Nodes**
+      then configure 'hibench.scale.profile' with different value 'small' 'large' 'huge'.
+   + **Experiment 2 : Different Number of Nodes** 
+      Repeat Execution steps for reserveing different number of nodes. 
    + **Experiment 3 : Exploring Duration of First and later Iterations**
+      `vim /var/scratch/ddps2203/HiBench/conf/workloads/ml/kmeans/kmeans.conf`
+      then configure 'hibench.kmeans.huge.max_iteration		$first_time' or 'hibench.kmeans.huge.max_iteration		5'
    + **Experiment 4 : Behavior with Insufficient Memory**  
+      `vim /var/scrath/ddps2203/HiBench/conf/spark.conf`
+      configure 'spark.executor.memory  $memory_size'.
+      
+### Launch HiBench 
+   
    
