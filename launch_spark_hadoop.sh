@@ -1,6 +1,6 @@
 #!/bin/bash
 # change the master node if the preserve list changed
-#ssh masternode
+#ssh $masternode
 #launch hadoop
 /var/scratch/ddps2203/hadoop/sbin/start-dfs.sh
 /var/scratch/ddps2203/hadoop/sbin/start-yarn.sh
