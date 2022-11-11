@@ -4,8 +4,14 @@
 ### Installation
 
 ### Execution
-`#reserve node
-.\reserve_node.sh 
-`
+```#reserve node 
+   . /reserve_node.sh
+   #Allocating master and worker node and updating to Spark, Hadoop and HiBench configuration files.
+   ./deploy.sh
+   # Connecting to master node and launching Hadoop or Spark
+   ssh $master_node
+   ./launch_spark_hadoop.py
+   
+```
 
 ### Experiment
