@@ -2,7 +2,11 @@
 ## Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing
 
 ### Installation
-
+```
+   ./install_spark_hadoop.sh
+   ./install_maven.sh
+   source export.sh
+```
 ### Execution
 ```
    #reserve node on DAS-5 
@@ -17,4 +21,8 @@
 
 ### Experiments
    + **Experiment 1 : Different Data Scale**
+   
+   + **Experiment 2 : Different Number of Nodes**
+   + **Experiment 3 : Exploring Duration of First and later Iterations**
+   + **Experiment 4 : Behavior with Insufficient Memory**  
    
