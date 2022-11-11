@@ -45,7 +45,8 @@
 ### Launch HiBench 
    ```
       ./repeat_iteration_times_spark_hadoop.sh
-      ./repeat_memory_spark.sh
+      #or
+      ./repeat_memory_spark.sh  
    ```
 ### Stop Spark and Hadoop 
   `./stop_spark_hadoop.sh`
