@@ -1,6 +1,6 @@
 #!/bin/bash
 # change the master node if the preserve list changed
-#ssh node105
+#ssh $master node
 #launch hadoop
 /var/scratch/ddps2203/hadoop/sbin/stop-dfs.sh
 /var/scratch/ddps2203/hadoop/sbin/stop-yarn.sh
